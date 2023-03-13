@@ -1143,6 +1143,7 @@ icon properties are listed below. they are consistent throughout the entire webs
 			height: 100%;
 		}
 
+		/*can add loading animations here*/
 		#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
@@ -1162,6 +1163,7 @@ icon properties are listed below. they are consistent throughout the entire webs
 			z-index: 2;
 		}
 
+		/* #bg is referenced html line 367*/
 		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
@@ -1171,12 +1173,15 @@ icon properties are listed below. they are consistent throughout the entire webs
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+			/* main background image is default here*/
 			background-image: url("../../images/bg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
+
+		/* black blocks to read text*/
 
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
@@ -1189,9 +1194,13 @@ icon properties are listed below. they are consistent throughout the entire webs
 			filter: blur(0.2rem);
 		}
 
+		/*pre load is here*/
+
 		body.is-preload #bg:before {
 			background-color: #000000;
 		}
+
+		/* could add individual backgrounds here with #bg #intro?? researching #main (html line 58) for reference...
 
 /* Wrapper */
 
