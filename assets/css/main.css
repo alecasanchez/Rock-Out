@@ -598,7 +598,13 @@ input, select, textarea {
 			padding: 0;
 		}
 
-/* Icon */
+/* Icon 
+
+on Primary side bar, sun is in front of brands, regular, solid. gem is located...
+
+icon properties are listed below. they are consistent throughout the entire website. Global properties in the environment
+
+*/
 
 	.icon {
 		text-decoration: none;
@@ -626,6 +632,10 @@ input, select, textarea {
 		.icon:before {
 			line-height: inherit;
 		}
+
+		
+		/* icons SOLID */
+
 
 		.icon.solid:before {
 			font-weight: 900;
