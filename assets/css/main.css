@@ -625,6 +625,7 @@ icon properties are listed below. they are consistent throughout the entire webs
 			
 			/*success. must have font weight of 900 to work that is what these numbers are for */
 			font-weight: 900; /* 400 previously*/
+			/*font size is uneccesary*/
 		}
 
 		.icon > .label {
