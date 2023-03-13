@@ -1173,13 +1173,15 @@ icon properties are listed below. they are consistent throughout the entire webs
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			/* main background image is default here*/
-			background-image: url("../../images/bg.jpg");
+			/* main background image for all tabs is default here*/
+			/* commenting out bg image*/
+			background-image: url("../../images/rockout.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
+
 
 		/* black blocks to read text*/
 
