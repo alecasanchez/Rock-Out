@@ -621,8 +621,10 @@ icon properties are listed below. they are consistent throughout the entire webs
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-family: 'Font Awesome 5 Free'; /*going to change value to fas and then html to <span class="icon fa-bolt"></span>*/
+			
+			/*success. must have font weight of 900 to work that is what these numbers are for */
+			font-weight: 900; /* 400 previously*/
 		}
 
 		.icon > .label {
